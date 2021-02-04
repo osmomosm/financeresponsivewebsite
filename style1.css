@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+    
+}
+.first img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.middle-text{
+    position: absolute;
+    color: black;
+    top: 30%;
+    margin-left: 35%;
+    font-size: 30px;
+    font-family: serif;
+}
+.first button{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: green;
+    width: 70%;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.middle{
+    position: absolute;
+    color: black;
+    
+    margin-left: 35%;
+    font-size: 30px;
+
+}
+.middle button{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: green;
+    width: 70%;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.equity{
+    position: absolute;
+    margin-left: 35%;
+    top: 200%;
+    font-size: 50px;
+    color: green;
+}
+.dollar{
+    position: absolute;
+    margin-left: 36%;
+    top: 202%;
+    font-size:20px ;
+    color: green;
+}
+.equity-text{
+    position: absolute;
+    margin-left: 35%;
+    top: 210%;
+}
+.equity-text p{
+    font-size: 20px;
+    color:grey;
+}
+.mutual{
+    position: absolute;
+    margin-left: 35%;
+    top: 250%;
+    font-size: 50px;
+    color: green;
+    
+}
+.mutual-text{
+    position: absolute;
+    margin-left: 35%;
+    top: 260%;
+}
+.mutual-text p{
+    font-size: 20px;
+    color:grey;
+}
+.insurance{
+    position: absolute;
+    margin-left: 35%;
+    top: 290%;
+    font-size: 50px;
+    color: green;
+}
+.insurance-text{
+    position: absolute;
+    margin-left: 35%;
+    top: 300%;
+}
+.insurance-text p{
+    font-size: 20px;
+    color:grey;
+}
+.fixed{
+    position: absolute;
+    margin-left: 35%;
+    top: 330%;
+    font-size: 50px;
+    color: green;
+}
+.fixed-text{
+    position: absolute;
+    margin-left: 35%;
+    top: 340%;
+}
+.fixed-text p{
+    font-size: 20px;
+    color:grey;
+}
+.mobile{
+    
+    margin-left: 35%;
+    width: 25%;
+    height: 50%;
+    top: 370%;
+    position: absolute;
+}
+.mobile img{
+    width: 100%;
+    height: 100%;
+}
+.mobile a{
+    text-decoration: none;
+    color: grey;
+}
+.handshake{
+    margin-left: 35%;
+    width: 25%;
+    height: 50%;
+    top: 450%;
+    position: absolute;
+
+
+}
+.handshake img{
+    width: 100%;
+    height: 100%;
+}
+
+.handshake a{
+    text-decoration: none;
+    color: grey;
+}
+.sometext{
+    margin-left: 35%;
+    width: 25%;
+    height: 50%;
+    top: 530%;
+    position: absolute;
+    padding: 10px;
+    font-size: 25px;
+}
+.sometext p{
+    font-size: 20px;
+    color: grey;
+}
+.sometext button{
+    color:green;
+    text-decoration: none;
+    font-size: 18px;
+    background-color:#fff;
+    width: 70%;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+@media(max-width:1000px){
+    .middle-text{
+        margin-left: 15%;
+        font-size: 18px;
+    }
+    .middle{
+        margin-left: 10% ;
+        font-size: 20px;
+    }
+    .equity{
+        margin-left: 15%;
+       
+    }
+    .dollar{
+        margin-left: 18%;
+    }
+    .equity-text{
+        margin-left: 15%;
+
+    }
+    .mutual,.mutual-text,.insurance,.insurance-text,.fixed,.fixed-text{
+        margin-left: 15%;
+    }
+    .mobile,.handshake{
+        margin-left: 15%;
+        width: 65%;
+    }
+    .sometext{
+        margin-left: 10%;
+        width: 80%;
+        font-size: 20px;
+    }
+    .sometext p{
+        font-size: 18px;
+    }
+        
+    
+
+}

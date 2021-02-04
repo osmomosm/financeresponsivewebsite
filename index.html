@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Finance Responsive website</title>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Exponent</label>
+        <ul>
+        <li><a class="active" onclick="click()" id="home" href="home.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Services</a></li>
+        </ul>
+    </nav>
+
+    <div class="slideshow">
+        
+        <div class="slideshow-item">
+            
+            <img src="1.jpg" alt="">
+            
+            <div class="slideshow-item-text">
+            
+                <h5>Get Paid What You're Worth and Spend Less Than You Earn</h5>
+                <p>It may sound simple, but many people struggle with this first rule</p>
+                <button class="learn">LEARN MORE</button>
+            </div>
+        </div>
+    
+
+    
+        <div class="slideshow-item">
+            <img src="2.png" alt="">
+            <div class="slideshow-item-text">
+                
+                <h5>Its time to make your money work for you</h5>
+                <p>Exponent is picture perfect where it hepls small business to build there website.</p>
+                <button class="about">ABOUT US</button>
+            </div>
+        </div>
+
+    
+
+
+    
+        <div class="slideshow-item">
+            <img src="3.png" alt="">
+            <div class="slideshow-item-text">
+                
+                <h5>Our motto is balance risk with growth.</h5>
+                <p> ipsum amet sit consequatur pariatur, illo blanditiis voluptas nihil.</p>
+                <button class="contact">CONTACT US</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function click(){
+            var opened=window.open("");
+            opened.document.write("home.html");
+        }
+    </script>
+</body>
+</html>
